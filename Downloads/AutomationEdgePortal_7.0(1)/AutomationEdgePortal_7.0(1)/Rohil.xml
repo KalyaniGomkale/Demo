@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="1" parallel="methods">
+	<test name="AESanity">
+		<classes>
+			<class name="com.ae.qa.testcases.SystemUsersPageTest">
+				<methods>
+					<include name="creatingSystemAdminTest" />
+					<include name="validateEditSystemUsers" />
+				</methods>
+			</class>
+			<class name="com.ae.qa.testcases.ArtifactsPageTest">
+				<methods>
+					<include name="validateUploadPSTest" />
+				</methods>
+			</class>
+			<class name="com.ae.qa.testcases.PurgeSchedulePageTest">
+				<methods>
+					<include name="validatePurgingScheduleDayTest" />
+					<include name="validatePurgingScheduleWeekendTest" />
+				</methods>
+			</class>
+			<class
+				name="com.ae.qa.testcasesTenantAdmin.ProcessStudioPageTestTA">
+				<methods>
+					<include name="validateDownloadandAssignPSTest" />
+				</methods>
+			</class>
+			<class
+				name="com.ae.qa.testcasesTenantAdmin.CategoriesPageTestTA">
+				<methods>
+					<include name="ValidateCreateCategoryTest" />
+				</methods>
+			</class>
+			<class
+				name="com.ae.qa.testcasesTenantAdmin.SchedulerPageTestTA">
+				<methods>
+					<include name="validateDailyScheduleTest" />
+				</methods>
+			</class>
+			<class name="com.ae.qa.testcases.IntegrationTypesPageTest">
+				<methods>
+					<include name="validateAddIntegrationTypesTest" />
+				</methods>
+			</class>
+			<class
+				name="com.ae.qa.testcasesTenantAdmin.TenantUsersPageTestTA">
+				<methods>
+					<include name="ValidateBulkUserUploadWithEmailTest" />
+				</methods>
+			</class>
+			<class
+				name="com.ae.qa.testcasesTenantAdmin.AgentListPageTestTA">
+				<methods>
+					<include name="validateDeleteAgent" />
+					<include name="validateDownloadAssistedAgentTest" />
+					<include name="validatecheckStatusOfAssistedAgent" />
+					<include name="validateassignAssistedAgentToUser" />
+					<include name="validateunassignAssistedAgentToUser" />
+					<include name="ValidateEditAssistedAgentName" />
+					<include name="validateDeleteAssistedAgent" />
+				</methods>
+			</class>
+			<class
+				name="com.ae.qa.testcasesTenantAdmin.WorkflowListPageTestTA">
+				<methods>
+					<include
+						name="validateImportWorkflowRegisteredAssistedAgent" />
+					<include
+						name="validateImportWorkflowUnRegisteredAssistedAgent" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<listeners>
+		<listener
+			class-name="com.ae.qa.Listeners.ITestListenerImplementation"></listener>
+	</listeners>
+</suite>
