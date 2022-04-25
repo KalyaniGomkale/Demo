@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[User LogIn Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to Agents Tab]]>
+    </line>
+    <line>
+      <![CDATA[Current status of Agent is: Running]]>
+    </line>
+    <line>
+      <![CDATA[Agent is in running mode]]>
+    </line>
+    <line>
+      <![CDATA[Current status of Agent is: Stopped]]>
+    </line>
+    <line>
+      <![CDATA[Current status of Agent is: Stopped]]>
+    </line>
+    <line>
+      <![CDATA[Agent is in Stopping mode]]>
+    </line>
+    <line>
+      <![CDATA[User signed out successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-04-25T07:14:55Z" name="Default suite" finished-at="2022-04-25T07:15:56Z" duration-ms="60165">
+    <groups>
+    </groups>
+    <test started-at="2022-04-25T07:14:55Z" name="Default test" finished-at="2022-04-25T07:15:56Z" duration-ms="60165">
+      <class name="com.ae.qa.testcasesTenantAdmin.AgentListPageTestTA">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.ae.qa.testcasesTenantAdmin.AgentListPageTestTA@2692b61e]" started-at="2022-04-25T07:14:55Z" name="setExtent" finished-at="2022-04-25T07:14:56Z" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.ae.qa.testcasesTenantAdmin.AgentListPageTestTA@2692b61e]" started-at="2022-04-25T07:14:56Z" name="initialization" finished-at="2022-04-25T07:15:07Z" duration-ms="11457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="validateDeleteAssistedAgent(java.lang.reflect.Method)[pri:314, instance:com.ae.qa.testcasesTenantAdmin.AgentListPageTestTA@2692b61e]" started-at="2022-04-25T07:15:07Z" name="validateDeleteAssistedAgent" finished-at="2022-04-25T07:15:55Z" duration-ms="47525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ae.qa.testcasesTenantAdmin.AgentListPageTestTA.validateDeleteAssistedAgent(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User LogIn Succesfully]]>
+            </line>
+            <line>
+              <![CDATA[User navigated to Agents Tab]]>
+            </line>
+            <line>
+              <![CDATA[Current status of Agent is: Running]]>
+            </line>
+            <line>
+              <![CDATA[Agent is in running mode]]>
+            </line>
+            <line>
+              <![CDATA[Current status of Agent is: Stopped]]>
+            </line>
+            <line>
+              <![CDATA[Current status of Agent is: Stopped]]>
+            </line>
+            <line>
+              <![CDATA[Agent is in Stopping mode]]>
+            </line>
+            <line>
+              <![CDATA[User signed out successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateDeleteAssistedAgent -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ae.qa.testcasesTenantAdmin.AgentListPageTestTA@2692b61e]" started-at="2022-04-25T07:15:55Z" name="getResult" finished-at="2022-04-25T07:15:55Z" duration-ms="312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateDeleteAssistedAgent status=SUCCESS method=AgentListPageTestTA.validateDeleteAssistedAgent(java.lang.reflect.Method)[pri:314, instance:com.ae.qa.testcasesTenantAdmin.AgentListPageTestTA@2692b61e] output=User LogIn Succesfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.ae.qa.testcasesTenantAdmin.AgentListPageTestTA@2692b61e]" started-at="2022-04-25T07:15:55Z" name="endReport" finished-at="2022-04-25T07:15:56Z" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.ae.qa.testcasesTenantAdmin.AgentListPageTestTA -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
