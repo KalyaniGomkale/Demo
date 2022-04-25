@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.ae.qa.Listeners.ITestListenerImplementation"/>
+  </listeners>
+  <test thread-count="1" parallel="methods" name="AESanity(failed)">
+    <classes>
+      <class name="com.ae.qa.testcases.TenantsPageTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="verifyLicenseInfoTest"/>
+          <include name="setExtent"/>
+          <include name="validateTenantsPageTest"/>
+          <include name="validateaddNewTenantsWithDuplicateOrgCode"/>
+          <include name="validateAddNewTenant"/>
+          <include name="initialization"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.ae.qa.testcases.TenantsPageTest -->
+    </classes>
+  </test> <!-- AESanity(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

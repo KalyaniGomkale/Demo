@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[User LogIn Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to Agents Tab]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to workflow assignment Tab]]>
+    </line>
+    <line>
+      <![CDATA[When Agent is not registered and user try to assign workflow to agent then get error message as: No agent registered]]>
+    </line>
+    <line>
+      <![CDATA[Getting correct error when user didnt register agent & try to assign workflow]]>
+    </line>
+    <line>
+      <![CDATA[Now User needs to download agent first]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to Agent List Tab]]>
+    </line>
+    <line>
+      <![CDATA[Agent download started]]>
+    </line>
+    <line>
+      <![CDATA[File unzipped properly]]>
+    </line>
+    <line>
+      <![CDATA[User signed out successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-04-06T07:00:49Z" name="Default suite" finished-at="2022-04-06T07:03:04Z" duration-ms="134981">
+    <groups>
+    </groups>
+    <test started-at="2022-04-06T07:00:49Z" name="Default test" finished-at="2022-04-06T07:03:04Z" duration-ms="134981">
+      <class name="com.ae.qa.testcasesTenantAdmin.AgentListPageTestTA">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.ae.qa.testcasesTenantAdmin.AgentListPageTestTA@41200e0c]" started-at="2022-04-06T07:00:49Z" name="setExtent" finished-at="2022-04-06T07:00:49Z" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.ae.qa.testcasesTenantAdmin.AgentListPageTestTA@41200e0c]" started-at="2022-04-06T07:00:49Z" name="initialization" finished-at="2022-04-06T07:00:55Z" duration-ms="6210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="validateDownloadAgentTest(java.lang.reflect.Method)[pri:70, instance:com.ae.qa.testcasesTenantAdmin.AgentListPageTestTA@41200e0c]" started-at="2022-04-06T07:00:55Z" name="validateDownloadAgentTest" finished-at="2022-04-06T07:03:03Z" duration-ms="127603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ae.qa.testcasesTenantAdmin.AgentListPageTestTA.validateDownloadAgentTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User LogIn Succesfully]]>
+            </line>
+            <line>
+              <![CDATA[User navigated to Agents Tab]]>
+            </line>
+            <line>
+              <![CDATA[User navigated to workflow assignment Tab]]>
+            </line>
+            <line>
+              <![CDATA[When Agent is not registered and user try to assign workflow to agent then get error message as: No agent registered]]>
+            </line>
+            <line>
+              <![CDATA[Getting correct error when user didnt register agent & try to assign workflow]]>
+            </line>
+            <line>
+              <![CDATA[Now User needs to download agent first]]>
+            </line>
+            <line>
+              <![CDATA[User navigated to Agent List Tab]]>
+            </line>
+            <line>
+              <![CDATA[Agent download started]]>
+            </line>
+            <line>
+              <![CDATA[File unzipped properly]]>
+            </line>
+            <line>
+              <![CDATA[User signed out successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateDownloadAgentTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ae.qa.testcasesTenantAdmin.AgentListPageTestTA@41200e0c]" started-at="2022-04-06T07:03:03Z" name="getResult" finished-at="2022-04-06T07:03:03Z" duration-ms="431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateDownloadAgentTest status=SUCCESS method=AgentListPageTestTA.validateDownloadAgentTest(java.lang.reflect.Method)[pri:70, instance:com.ae.qa.testcasesTenantAdmin.AgentListPageTestTA@41200e0c] output=User LogIn Succesfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.ae.qa.testcasesTenantAdmin.AgentListPageTestTA@41200e0c]" started-at="2022-04-06T07:03:03Z" name="endReport" finished-at="2022-04-06T07:03:04Z" duration-ms="571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.ae.qa.testcasesTenantAdmin.AgentListPageTestTA -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
