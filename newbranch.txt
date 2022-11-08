@@ -1,0 +1,4 @@
+inputStr;searchStr;updatedString
+ombay;b;ombay           
+mbay;b;mbay            
+bay;b;bay             
